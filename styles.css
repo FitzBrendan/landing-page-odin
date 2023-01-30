@@ -1,0 +1,179 @@
+/* ==== Typography & General Styles  */
+html {
+  font-family: Roboto, sans-serif;
+}
+
+h1.text--48--800 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h2.text--36--800 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+h2.text--36--300--italic {
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.text--18--normal {
+  font-size: 1.125em;
+}
+
+#index__body {
+  margin: 0 17rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.625rem 2.5rem;
+}
+
+/* ==== Flex */
+.flex__container {
+  display: flex;
+}
+.flex--columns {
+  flex-direction: column;
+}
+.flex--space-between {
+  justify-content: space-between;
+}
+.flex--center {
+  justify-content: center;
+}
+.flex--evenly {
+  justify-content: space-evenly;
+}
+.flex__align--center {
+  align-items: center;
+}
+
+/* ==== Layout */
+.page__horiz__padding {
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ==== Colors */
+.dark-blue {
+  color: #1f2937;
+}
+
+.dark-blue-bg {
+  background-color: #1f2937;
+}
+
+.med-blue {
+  color: #3882f6;
+}
+
+.med-blue-bg {
+  background-color: #3882f6;
+}
+
+.light-gray {
+  color: #e5e7eb;
+}
+
+.light-gray-bg {
+  background-color: #e5e7eb;
+}
+
+.off-white {
+  color: #f9faf8;
+}
+
+.off-white-bg {
+  background-color: #f9faf8;
+}
+
+/* ==== Navigation, Links */
+.nav__links > a {
+  text-decoration: none;
+  font-size: 1.125em;
+}
+
+/* ==== Page Specifics ---- */
+
+/* ==== Sections ++++ */
+
+/* ==== Header, Nav-bar ++++ */
+.header {
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.logo__text {
+  font-size: 1.5em;
+}
+.nav__links {
+  gap: 1.5em;
+}
+
+/* ==== Hero, index ++++ */
+.index__hero {
+  gap: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.index__hero p {
+  padding: 1rem 0;
+}
+.placeholder__image {
+  margin-left: auto;
+  padding: 5rem 12rem;
+  background-color: gray;
+  color: #f9faf8;
+}
+
+/* ==== Gallery with Blue-Boxes ++++ */
+.gallery__blue-boxes {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.blue-box {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.blue-boxes {
+  gap: 8em;
+}
+
+/* ==== Testimonials ++++ */
+.testimonials {
+  padding: 6rem 17rem;
+  line-height: 1.2;
+}
+.testimonial-author {
+  text-align: right;
+}
+
+/* ==== Call to Action ++++ */
+.call-to-action {
+  margin: 6rem 12.5rem;
+  padding: 3rem 6.5rem;
+}
+.cta-header {
+  padding-bottom: 0.5rem;
+}
+.call-to-action button {
+  border: solid 2px #f9faf8;
+}
+
+/* ==== Footer ++++ */
+.copyright {
+  padding: 1.7rem;
+}

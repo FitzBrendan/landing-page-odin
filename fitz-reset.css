@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+      
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+    
+html, body, div, span, applet, object, iframe,
+section, header, footer, menu, nav, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, em, acronym, address, code, cite,
+img, ins, q, s, samp,
+big, small, strike, strong, sub,sup,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, input, label, legend, textarea,
+table, caption, thead, tbody, tfoot, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+    
+body {
+    line-height: 1;
+}
+    
+ol, ul {
+list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote, q {
+    quotes: none;
+}
+        
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}     
+                
+h1 {                    /* 32 px */
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {                    /* 24 px */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3 {                    /* 18.72 px */
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+h4 {                    /* 16 px */
+    font-size: 1rem;
+    font-weight: bold;
+}
+h5 {                    /* 13.28 px */
+    font-size: .83rem;
+    font-weight: bold;
+}
+h6 {                    /* 10.72 px */
+    font-size: .67rem;
+    font-weight: bold;
+}
+                
+                
+                       
